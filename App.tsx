@@ -80,7 +80,7 @@ function App(): React.JSX.Element {
           <Section title="Debug">
             <DebugInstructions />
           </Section>
-          <Texttt>Hoang Dung</Texttt>
+          <Textt>Hoang Dung</Textt>
           <LearnMoreLinks />
         </View>
       </ScrollView>
