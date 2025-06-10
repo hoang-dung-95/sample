@@ -20,12 +20,15 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': 'error',
-    'react/react-in-jsx-scope': 'off', // Không cần với React 17+
-    'react-native/no-inline-styles': 'off', // Tuỳ theo codebase bạn
+    'react/react-in-jsx-scope': 'off',
+    'react-native/no-inline-styles': 'off',
   },
   settings: {
     react: {
       version: 'detect',
+    },
+    'import/resolver': {
+      'babel-module': {},
     },
   },
 };
