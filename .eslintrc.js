@@ -22,6 +22,10 @@ module.exports = {
     'prettier/prettier': 'error',
     'react/react-in-jsx-scope': 'off',
     'react-native/no-inline-styles': 'off',
+    'react-native/sort-styles': 'off',
+    '@typescript-eslint/no-empty-interface': 'off',
+    '@typescript-eslint/no-empty-object-type': 'off',
+    'react/display-name': 'off',
   },
   settings: {
     react: {
